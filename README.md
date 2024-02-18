@@ -1,3 +1,5 @@
+Note: I have used firebase for authentication so i suggest create a account and use your own apis.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
