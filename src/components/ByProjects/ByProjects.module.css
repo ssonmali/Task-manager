@@ -1,0 +1,119 @@
+.mainContainer {
+  padding: 1rem 4rem;
+}
+
+.cardContainers {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.taskName {
+  font-size: 20px;
+  display: block;
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+}
+
+.itemContainer {
+  padding: 0.25rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.memberItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: #bee9e8;
+  padding: 0.25rem 0.75rem 0.25rem 0.25rem;
+  border-radius: 1000000vh;
+}
+
+.memberItem > img {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.projectItem {
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: #0082d8;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1000000vh;
+  color: #fff;
+}
+
+.description {
+  display: block;
+  font-size: 14px;
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.projectCards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.projectTitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+  width: fit-content;
+  padding: 5px;
+  margin: 0 0.3rem;
+}
+.statusContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+
+.dueDate {
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+.statusComplete {
+  background-color: green;
+  border-radius: 200000vh;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 0.7rem;
+}
+.statusIncomplete {
+  background-color: red;
+  border-radius: 200000vh;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 0.7rem;
+}
+.deleteCard {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.deleteCard:hover {
+  box-shadow: 1px 1px 1px 1px;
+  border-radius: 50%;
+}

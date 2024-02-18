@@ -1,0 +1,80 @@
+.container {
+  margin: 0;
+  max-width: 100%;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid #b3b3b3;
+  border-radius: 4px;
+}
+
+.dropdownContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 16px;
+}
+
+.dropdownContainer:hover {
+  cursor: pointer;
+}
+
+.arrowIcon {
+  width: 24px;
+  aspect-ratio: 1;
+  transform: rotate(180deg);
+  transition: all 200ms;
+}
+
+.arrowIcon[data-isexpanded="true"] {
+  transform: rotate(0deg);
+}
+
+.dropdownListContainer {
+  position: absolute;
+  display: grid;
+  margin-top: 0.5rem;
+  gap: 0.5rem;
+  max-height: 10rem;
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #111;
+  z-index: 100000;
+}
+
+.listItem {
+  margin: 0;
+  border-bottom: 1px solid #000;
+  height: 100%;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.listItem:last-child {
+  border: none;
+}
+
+.listItem:hover {
+  cursor: pointer;
+}
+
+.checkIcon {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.checkIcon > img {
+  filter: invert(100%);
+}
+
+.checkIcon[data-ischecked="true"] {
+  background-color: #000;
+}

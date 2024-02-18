@@ -1,0 +1,66 @@
+.mainContainer {
+  display: flex;
+  max-width: 35rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  gap: 1.5rem;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formItem > label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.formItem > input {
+  font-size: 16px;
+  border: 1px solid #b3b3b3;
+  outline: none;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+}
+
+.formItem > input:hover,
+.formItem > input:focus-visible {
+  border: 1px solid #111;
+}
+
+.buttonContainer {
+  margin: 0 auto;
+  color: #0a66c2;
+}
+
+.buttonContainer > button {
+  background: #0a66c2;
+  border: 1px solid #000;
+  outline: none;
+  color: #fff;
+  padding: 0.35rem 0.7rem;
+  border-radius: 0.5rem;
+  font-size: 18px;
+}
+
+.buttonContainer > button:hover,
+.buttonContainer > button:focus-visible {
+  filter: brightness(120%);
+}
+
+.buttonContainer > button:active {
+  filter: brightness(70%);
+}

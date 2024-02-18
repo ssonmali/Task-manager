@@ -1,0 +1,109 @@
+.mainContainer {
+  display: flex;
+}
+.logoName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  gap: 2px;
+}
+.text {
+  font-size: 11px;
+}
+.logoName > span:last-child {
+  color: #01161e;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+  font-size: 18px;
+}
+.logo {
+  height: auto;
+  width: 55%;
+  margin-left: 2px;
+  padding-bottom: 5px;
+}
+
+.sidebarContainer {
+  background: #0a66c2;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 15rem;
+  min-width: 13rem;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.offLayout {
+  flex: 1;
+  background: #f0f0f0;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  width: fit-content;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  transform-origin: right;
+  border-radius: 10000vh;
+  transform: scale(0, 1);
+  background-color: #01161e;
+  left: 0;
+  bottom: -5px;
+  transition: transform 200ms;
+}
+
+:not(.activeLink).navLink:hover::after {
+  transform: scale(1, 1);
+  transform-origin: left;
+}
+
+.activeLink.navLink::after {
+  background-color: #fff;
+}
+
+.activeLink.navLink:hover::after {
+  transform: scale(1, 1);
+  transform-origin: left;
+  background-color: #fff;
+}
+
+.activeLink {
+  color: #01161e;
+}
+.logoutButton {
+  background-color: #0a66c2;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 200000vh;
+  outline: none;
+  font-weight: 700;
+  border: 1px solid white;
+}
+.logoutButton:hover {
+  box-shadow: 2px 2px;
+  transition: ease-in-out 0.4s;
+}
