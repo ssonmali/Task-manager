@@ -1,5 +1,13 @@
 Note: I have used firebase for authentication so i suggest create a account and use your own apis.
 
+This is a Task Manager website for a business owner to manage and assign tasks to his team members.
+Tools Used : Reactjs, CSS , Firbase and necessary dependencies
+
+
+Screenshot of my websites are as follow:
+1) Login page: ![Screenshot 2024-02-18 222703](https://github.com/ssonmali/Task-manager/assets/146985996/c1f0d179-355c-4b6e-ad06-f7b1437a1e6b)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
