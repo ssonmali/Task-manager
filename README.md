@@ -7,17 +7,18 @@ Tools Used : Reactjs, CSS , Firbase and necessary dependencies
 Screenshot of my websites are as follow:
 1) Login page: ![Screenshot 2024-02-18 222703](https://github.com/ssonmali/Task-manager/assets/146985996/c1f0d179-355c-4b6e-ad06-f7b1437a1e6b)
 
-2) All tasks:
-![Screenshot 2024-02-18 222733](https://github.com/ssonmali/Task-manager/assets/146985996/d1026a2b-d19e-494c-9a69-46a52aaffaca)
+2) All tasks:![Screenshot 2024-02-18 224733](https://github.com/ssonmali/Task-manager/assets/146985996/c3867673-c2ee-4a96-8d0b-93404d03c96c)
+
+
 
 3) Tasks by Projects: 
 ![Screenshot 2024-02-18 222755](https://github.com/ssonmali/Task-manager/assets/146985996/cc99386e-e67a-4398-b33b-03a2bede6aae)
 
 4) Tasks by Team members: ![Screenshot 2024-02-18 222831](https://github.com/ssonmali/Task-manager/assets/146985996/7e4350ec-6a13-42e3-9f0c-9e5f87194f50)
 
-5) Add tasks: ![Screenshot 2024-02-18 222848](https://github.com/ssonmali/Task-manager/assets/146985996/a6e37c9e-7a54-4e9f-9c12-2a525d3ebfd7)
+5) Add tasks:
+![Screenshot 2024-02-18 224747](https://github.com/ssonmali/Task-manager/assets/146985996/6b93a408-3270-4b32-8056-55f1ad351e99)
 
-# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
